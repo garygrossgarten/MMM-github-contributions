@@ -7,8 +7,7 @@ Module.register("MMM-github-contributions", {
   },
   getScripts: function() {
     return [
-      this.file("dist/github-contributions/github-contributions.esm.js"),
-      this.file("dist/github-contributions/github-contributions.js")
+      this.file("dist/github-contributions.js")
     ];
   }
 });
