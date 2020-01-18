@@ -3,7 +3,7 @@ github-contributions{
     background: black;
 }
 
-.calendar {
+.contributions {
   font-family: Helvetica, arial;
   text-align: center;
   margin: 0 auto;
@@ -74,7 +74,7 @@ github-contributions{
   color: #333;
 }
 
-.calendar img.spinner {
+.contributions img.spinner {
   width: 70px;
   margin-top: 50px;
   min-height: 70px;

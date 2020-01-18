@@ -1,1 +1,1 @@
-System.register(["./p-cf851fa9.system.js"],(function(){"use strict";var t,e;return{setters:[function(n){t=n.p;e=n.b}],execute:function(){t().then((function(t){return e([["p-aaxu2n5y.system",[[0,"github-contributions",{username:[1]}]]]],t)}))}}}));
+System.register(["./p-cf851fa9.system.js"],(function(){"use strict";var t,e;return{setters:[function(n){t=n.p;e=n.b}],execute:function(){t().then((function(t){return e([["p-z7rc4ew1.system",[[0,"github-contributions",{username:[1]}]]]],t)}))}}}));

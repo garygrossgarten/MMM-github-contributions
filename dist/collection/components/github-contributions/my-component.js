@@ -2,14 +2,14 @@ import { h } from "@stencil/core";
 import GitHubCalendar from 'github-calendar';
 export class MyComponent {
     componentDidLoad() {
-        GitHubCalendar(".calendar", this.username, {
+        GitHubCalendar(".contributions", this.username, {
             responsive: true,
             summary_text: "",
             global_stats: ""
         });
     }
     render() {
-        return h("div", { class: "calendar" });
+        return h("div", { class: "contributions" });
     }
     static get is() { return "github-contributions"; }
     static get originalStyleUrls() { return {

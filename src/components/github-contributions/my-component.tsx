@@ -11,7 +11,7 @@ export class MyComponent {
   @Prop() username: string;
 
   componentDidLoad(){
-    GitHubCalendar(".calendar", this.username, {
+    GitHubCalendar(".contributions", this.username, {
       responsive: true,
       summary_text: "",
       global_stats: ""
@@ -20,6 +20,6 @@ export class MyComponent {
 
 
   render() {
-    return <div class="calendar"></div>;
+    return <div class="contributions"></div>;
   }
 }
